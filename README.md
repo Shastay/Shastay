@@ -23,14 +23,3 @@ His research emphasizes:
 Shayan is building a knowledge foundation that supports responsible and protected AI development — ensuring that 
 innovation goes hand-in-hand with ethical and legal standards.
 """
-
-# Add the content to the PDF
-for line in bio_text.strip().split('\n'):
-    pdf.multi_cell(0, 10, line.strip())
-
-# Save the PDF
-pdf_output_path = "/mnt/data/Shayan_Pirzade_AI_Bio.pdf"
-pdf.output(pdf_output_path)
-
-pdf_output_path
-
